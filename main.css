@@ -1,0 +1,704 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+
+
+/* Title here  */
+
+#Title {
+    position: absolute;
+    left: 810px;
+    top: 160px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 30px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    
+  }
+
+
+
+
+  #liquid {
+    position: absolute;
+    left: 1000px;
+    top: 195px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(143, 143, 248);
+    
+  }
+
+/* 
+Light here  */
+
+  #Light {
+    position: absolute;
+    left: 375px;
+    top: 237px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);
+    
+  }
+
+
+#Light ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Light ul input {
+   
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+  
+
+
+
+
+
+  
+/* 
+Fan here  */
+
+#Fan {
+    position: absolute;
+    left: 614px;
+    top: 237px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Fan ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Fan ul input {
+  
+
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+  /* 
+ac here  */
+
+#AC {
+    position: absolute;
+    left: 865px;
+    top: 237px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#AC ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #AC ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+    /* 
+PC here  */
+
+#PC {
+    position: absolute;
+    left: 1120px;
+    top: 237px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#PC ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #PC ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+      /* 
+TV here  */
+
+#TV {
+    position: absolute;
+    left: 1365px;
+    top: 237px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#TV ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #TV ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 
+Wash here  */
+
+#Wash {
+    position: absolute;
+    left: 375px;
+    top: 395px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Wash ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Wash ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+  
+
+
+
+
+
+  
+/* 
+Dish here  */
+
+#Dish {
+    position: absolute;
+    left: 614px;
+    top: 395px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Dish ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Dish ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+  /* 
+Iron here  */
+
+#Iron {
+    position: absolute;
+    left: 865px;
+    top: 395px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Iron ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Iron ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+    /* 
+gey here  */
+
+#gey {
+    position: absolute;
+    left: 1120px;
+    top: 395px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#gey ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #gey ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+
+      /* 
+Oven here  */
+
+#Oven {
+    position: absolute;
+    left: 1365px;
+    top: 395px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Oven ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Oven ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+/* 
+Ref here  */
+
+#Ref {
+    position: absolute;
+    left: 540px;
+    top: 572px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Ref ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Ref ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+  /* 
+cool here  */
+
+#cool {
+    position: absolute;
+    left:780px;
+    top: 572px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#cool ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #cool ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+    /* 
+Water here  */
+
+#Water {
+    position: absolute;
+    left: 1030px;
+    top: 572px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Water ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Water ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+
+      /* 
+Oth here  */
+
+#Oth {
+    position: absolute;
+    left: 1270px;
+    top: 572px;  
+    color: rgb(255, 255, 255);
+    height: 23px;
+    font-size: 18px;
+    width: 350px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    color: rgb(0, 255, 106);    
+  }
+
+
+#Oth ul{
+    margin: 3px 3px;
+    padding: 2px 2px;
+}
+
+
+  #Oth ul input {
+      margin: 3px 3px;
+      padding: 2px 2px;
+  }
+
+
+
+  #buttonSub {
+    position: absolute;
+    left: 40%;
+    top: 740px;  
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 33px;
+    font-size: 18px;
+    width: 350px;
+    font-family: monospace;
+    font-weight: 700;
+    color: rgb(47, 0, 255);
+    box-shadow: 3px;
+  }
+
+
+  #buttonSub:hover{
+      background-color: rgb(134, 190, 241);
+      color: rgb(7, 7, 7);
+  }
+
+
+#Bill{
+  position: absolute;
+  left: 130px;
+  top: 365px;  
+  color: rgb(255, 255, 255);
+  height: 23px;
+  font-size: 25px;
+  width: 350px;
+  font-family: 'Syne Mono', monospace;
+  font-weight: 700;
+  color: rgb(255, 255, 255);  
+}
+
+  
+#Result{
+  visibility: hidden;
+}
+
+
+
+#rup{
+  position: absolute;
+  left: 329px;
+  top: 18px;  
+  color: rgb(255, 255, 255);
+  height: 23px;
+  font-size: 80px;
+  width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+ 
+}
+
+
+
+
+
+  
+#Solar{
+  position: absolute;
+  left: 1181px;
+  top: 290px;  
+  color: rgb(9, 255, 0);
+  height: 35px;
+  font-size: 40px;
+  width: 650px;
+  font-family: 'Syne Mono', monospace;
+  font-weight: 700;
+  
+}
+
+
+
+
+
+#months{
+
+  color: rgb(255, 255, 255);
+
+ 
+} 
+
+
+h5{
+
+  color: rgb(0, 0, 0);
+
+ 
+} 
+
+
+h6{
+
+  color: rgb(4, 192, 192);
+  font-size: 15px;
+
+ 
+} 
+#Refresh {
+  position: absolute;
+  left: 1700px;
+  top: 20px;    
+
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  height: 30px;
+  font-size: 10px;
+  width: 160px;
+  font-style: unset;
+  font-weight: 700;
+  
+}
+
+
+#Refresh:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(10, 12, 34);
+}
+
+
+#rr{
+
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+
+ 
+} 
+
+/*# sourceMappingURL=main.css.map*/
