@@ -1,2 +1,2 @@
 # KyaSolarChalega
-A Decision maker , whether Solar is suitable for you or not !?
+A Decision maker. Whether Solar is suitable for you or not !?
